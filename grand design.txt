@@ -2,17 +2,17 @@ buat pallete warna
 
 /* :root[data-theme="light"] {
     --text: #000000;
-    --background: #f5f5fd;
+    --background: #DEDFF7;
     --primary: #2c2e81;
-    --secondary: #5253d8;
-    --accent: #464665;
+    --secondary: #BCC0F0;
+    --accent: #2A33B7;
   }
   :root[data-theme="dark"] {
     --text: #ffffff;
-    --background: #020209;
-    --primary: #7e7fd3;
-    --secondary: #2828af;
-    --accent: #9999b8;
+    --background: #080921;
+    --primary: #868CE4;
+    --secondary: #0F1443;
+    --accent: #4852D5;
   }
    */
 
