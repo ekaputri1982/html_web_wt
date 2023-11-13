@@ -53,7 +53,7 @@ figure {
 
 /* Page Border */
 
-.page-border {
+/* .page-border {
     position: fixed;
     z-index: 999999;
     pointer-events: none;
@@ -102,7 +102,7 @@ figure {
     margin:0 15px;
     padding: 15px 0;
     position: relative;
-}
+} */
 
 /* try aurora background
 header{
@@ -283,7 +283,7 @@ section {
 /* --------- 2.1 Header --------- */
 
 #header {
-    height: 71px !important;
+    height: 90px !important;
     overflow: visible;
     z-index: 9999;
     width: 100%;
@@ -761,6 +761,7 @@ h6 {
 
 #banner {
     background-size: cover;
+    /* background-color: #e4473c; */
 }
 
 #banner-content.row {
@@ -785,6 +786,34 @@ h6 {
 /*------------------------------------------------------------------------------------------*/
 /* 5. Content Elements */
 /*------------------------------------------------------------------------------------------*/
+
+/* 5.0 Accordion */
+/* Style the Accordion button */
+.accordion-item {
+    
+}
+.accordion-title {
+
+}
+.accordion-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion-header {
+    padding: 15px;
+    background-color: #f4f4f4;
+    cursor: pointer;
+    user-select: none;
+}
+
+.accordion-content {
+    display: none;
+    padding: 15px;
+}
+
+.accordion-item.active .accordion-content {
+    display: block;
+}
 
 /* --------- 5.1 Icons ---------- */
 

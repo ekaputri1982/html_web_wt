@@ -80,3 +80,76 @@
                             among team members. This allows for balanced assignment distribution and helps prevent 
                             burnout. We bring solution for Task and Project Planning, Gantt Chart, Kanban Process, 
                             Workload Management, Collaboration Tools, Document and Report Management.</p>
+
+
+about page
+                    <!--Icon Block-->
+                    <div class="col-1 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
+                        
+
+                        <!--Icon-->
+                        <div class="icon">
+                            <i class="fa fa-area-chart fa-2x"></i>
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Intelligent Dashboard, Easy to Use, and Interactive</h4>
+                            <p>
+                            <li>Simplified Insights</li>
+                            <li>Effortless Navigation</li>
+                        </p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!-- Icon Block-->
+                    <div class="col-1 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
+                        <!--Icon-->
+                        <div class="icon">
+                            <i class="fa fa-pie-chart fa-2x"></i>
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>AI-Based Smart Engine for Data Analytics and Prediction</h4>
+                            <p>
+                            <li>Informed Decision-Making</li>
+                            <li>Real-Time Insights</li>
+                        </p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-1 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                        <!--Icon-->
+                        <div class="icon">
+                            <i class="fa fa-line-chart fa-2x"></i>
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Adaptive and Flexible Data Management for Personalized Executive Needs</h4>
+                            <p>
+                            <li>Tailored for You</li>
+                            <li>Personalized Insights</li>
+                        </p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-1 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                        <!--Icon-->
+                        <div class="icon">
+                            <i class="fa fa-bar-chart fa-2x"></i>
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Carry out advice for Task and Project Management</h4>
+                            <p>
+                            <li>Balanced Assignment Distribution</li>
+                            <li>Task and Project Planning Solutions</li>
+                        
+                        </p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block -->

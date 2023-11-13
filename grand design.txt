@@ -2,7 +2,7 @@ buat pallete warna
 
 /* :root[data-theme="light"] {
     --text: #000000;
-    --background: #DEDFF7;
+    --background: #DEDFF7; #f5f7fa
     --primary: #2c2e81;
     --secondary: #BCC0F0;
     --accent: #2A33B7;

@@ -35,7 +35,13 @@ a:hover,
 /* 2. Navigation */
 /*------------------------------------------------------------------------------------------*/
 
+/* create background color for header */
+#header {
+  background-color: #fff;
+}
+
 /* Transparent Navigation Color on a Banner */
+
 
 #header nav a,
 #header i {
@@ -114,6 +120,9 @@ a:hover,
     no-repeat center
     top;
   background-size: cover;
+  background-color: #f5f7fa;
+  
+  
 }
 
 /*------------------------------------------------------------------------------------------*/
