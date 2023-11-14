@@ -789,21 +789,46 @@ h6 {
 
 /* 5.0 Accordion */
 /* Style the Accordion button */
-.accordion-item {
-    
-}
-.accordion-title {
 
-}
 .accordion-item {
     border-bottom: 1px solid #ccc;
+    border-radius: 15px; /* Add border-radius for rounded corners */
+    overflow: hidden; /* Ensure the rounded corners are visible */
+    margin-bottom: 25px;
 }
 
 .accordion-header {
-    padding: 15px;
-    background-color: #f4f4f4;
+    display: flex;
+}
+
+.accordion-column {
+    flex: 1;
+    height: 100px;
+    padding: 20px;
+    background-color: #f5f7fa;
     cursor: pointer;
     user-select: none;
+    display: flex;
+    align-items: center;
+}
+
+.accordion-column i{
+    margin-right: 25px;
+}
+
+.accordion-column p{
+    margin-right: 25px;
+}
+
+
+
+.arrow-icon {
+    margin-left:auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.accordion-item.active .arrow-icon {
+    transform: rotate(-180deg);
 }
 
 .accordion-content {
@@ -983,6 +1008,59 @@ blockquote {
 }
 
 /* --------- 6.4 Gallery ---------- */
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.video-section {
+    flex: 1;
+    /* padding: 0 20px; */
+    text-align: center;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.thumbnail {
+    flex: 0 0 auto;
+    width: 200px; /* Set a fixed width */
+    height: 200px; /* Set a fixed height */
+    margin-right: 50px; /* Adjust spacing between thumbnails */
+    cursor: pointer;
+    overflow: hidden; /* Hide overflow to contain images */
+    transition: transform 0.3s ease; /* Add a smooth transition for the hover effect */
+}
+
+.thumbnail img {
+    width: 100%; /* Make sure the image fills the entire thumbnail container */
+    height: 100%;
+    object-fit: contain; /* Maintain aspect ratio while covering the entire container */
+}
+
+.thumbnail:hover {
+    transform: scale(1.1); /* Add a subtle scale effect on hover */
+}
+
+/* Optional: Add scrollbar styling for the thumbnail gallery */
+.image-section::-webkit-scrollbar {
+    width: 10px;
+}
+
+.image-section::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.image-section::-webkit-scrollbar-track {
+    background-color: #f4f4f4;
+}
 
 #gallery img {
     max-height: 300px;
