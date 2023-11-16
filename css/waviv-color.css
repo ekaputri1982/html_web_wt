@@ -106,7 +106,7 @@ a:hover,
 /* Secondary Background and Text Colors */
 
 .secondary-color {
-  background-color: #f5f5f5;
+  background-color: #f5f7fa;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -116,14 +116,20 @@ a:hover,
 /* Banner Background and Text Colors */
 
 #banner {
-  background: url("../images/banner-images/banner-image-1-test.png")
+  /* background: url("../images/banner-images/banner-image-2-test.png")
     no-repeat center
-    top;
+    top; */
   background-size: cover;
   background-color: #f5f7fa;
+  height: 976px;
   
   
 }
+
+/* #gallery {
+  background-size: cover;
+  background-color: #f5f7fa;
+} */
 
 #services {
   background-size: cover;

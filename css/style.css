@@ -267,6 +267,10 @@ section {
     width: 75%;
 }
 
+.col-5-6 {
+    width: 83.33333333333333%;
+}
+
 .col-9-10 {
     width: 90%;
 }
@@ -334,9 +338,9 @@ section {
 }
 
 #logo img {
-    max-height: 22px;
+    max-height: 35px;
     vertical-align: middle;
-    margin-right: 15px;
+    /* margin-right: 15px; */
 }
 
 #navigation-logo {
@@ -670,6 +674,7 @@ nav#nav-mobile a:hover {
 
 /* --------- 2.6 Images ---------- */
 
+/* hero images */
 
 
 img {
@@ -820,6 +825,52 @@ h6 {
     margin-right: 25px;
 }
 
+.accordion-column-second-style {
+    flex: 1;
+    height: 60px;
+    padding: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+}
+
+.accordion-column-second-style i{
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.accordion-column-second-style p{
+    margin-right: 25px;
+}
+
+.accordion-content-second-style {
+    display: none;
+    padding: 10px;
+}
+
+
+.accordion-column-third-style {
+    flex: 1;
+    height: 30px;
+    padding: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+}
+
+.accordion-column-third-style i{
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.accordion-column-third-style p{
+    margin-right: 25px;
+}
+
 
 
 .arrow-icon {
@@ -855,6 +906,11 @@ h6 {
 }
 
 .icon-block h4 {
+    font-weight: bold;
+    padding-top: 0;
+}
+
+.icon-block h6 {
     font-weight: bold;
     padding-top: 0;
 }
@@ -1108,6 +1164,52 @@ blockquote {
     top: 50%;
     left: 50%;
 }
+
+/* 6.5 Services */
+
+.box {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px; /* Spacing between rows */
+  }
+
+  .line {
+    height: 2px;
+    background-color: black;
+    width: 100%;
+    margin: auto;
+  }
+
+  .connector {
+    width: 2px;
+    background-color: black;
+    height: 30px; /* Adjust height as needed */
+    margin: auto;
+  }
+
+  .curved-connector {
+    width: 100%;
+    height: 50px; /* Adjust height as needed */
+    margin: auto;
+    position: relative;
+  }
+
+  .curved-connector:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    border: 2px solid black;
+    border-top: none;
+    border-right: none;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
 
 
 @media all {
