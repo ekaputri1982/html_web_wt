@@ -2295,6 +2295,18 @@ blockquote {
 ===============================*/
 @media (max-width: 480px) {
 
+    
+    #content h4 {
+        font-size: 14px;
+    }
+
+    #content p {
+        font-size: 0.75rem;
+        line-height: 1.4;
+        margin-bottom: 0.75em;
+    }
+    
+
     #wrapper {
         margin:0;
         padding:0;
