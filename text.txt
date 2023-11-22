@@ -394,3 +394,73 @@ about page
 
             </aside>
             <!--End of Testimonials-->
+
+            <section id="clients" class="scrollto clearfix">
+                <div class="row clearfix">
+
+                    <div class="col-3">
+
+                        <div class="section-heading">
+                            <h3>TRUST</h3>
+                            <h2 class="section-title">Companies who use our services</h2>
+                            <p class="section-subtitle">Waviv Know-AI has had a positive impact on various professionals
+                                and
+                                industries, emphasizing benefits such as increased profits, reduced costs, and effective
+                                risk
+                                mitigation.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-2-3">
+
+                        <a href="#gallery" class="col-3">
+                            <img src="images/company-images/company-logo1.png" alt="Company" />
+                            <div class="client-overlay"><span>Bank Aceh Syariah</span></div>
+                        </a>
+                        <a href="#gallery" class="col-3">
+                            <img src="images/company-images/company-logo2.png" alt="Company" />
+                            <div class="client-overlay"><span>Medco Energi</span></div>
+                        </a>
+                        <a href="#gallery" class="col-3">
+                            <img src="images/company-images/company-logo3.png" alt="Company" />
+                            <div class="client-overlay"><span>Pertamina</span></div>
+                        </a>
+                        <a href="#gallery" class="col-3">
+                            <img src="images/company-images/company-logo4.png" alt="Company" />
+                            <div class="client-overlay"><span>Bukit Asam</span></div>
+                        </a>
+                        <a href="#gallery" class="col-3">
+                            <img src="images/company-images/company-logo5.png" alt="Company" />
+                            <div class="client-overlay"><span>Exxon Mobil</span></div>
+                        </a>
+                        <a href="#gallery" class="col-3">
+                            <img src="images/company-images/company-logo6.png" alt="Company" />
+                            <div class="client-overlay"><span>RS.Muhammadiyah</span></div>
+                        </a>
+                        <a href="#gallery" class="col-3">
+                            <img src="images/company-images/company-logo7.png" alt="Company" />
+                            <div class="client-overlay"><span>RS.Al-Islam</span></div>
+                        </a>
+                        <a href="#gallery" class="col-3">
+                            <img src="images/company-images/company-logo8.png" alt="Company" />
+                            <div class="client-overlay"><span>Bank Jatim</span></div>
+                        </a>
+
+                        <a href="#gallery" class="col-3">
+                            <img src="images/company-images/company-logo9.png" alt="Company" />
+                            <div class="client-overlay"><span>Bank BSI</span></div>
+                        </a>
+
+                    </div>
+
+                </div>
+            </section>
+
+                                        <!-- <p style="text-align:right"><b><mark>Contact Information:</mark></b></p>
+                            <p style="text-align:right">For inquiries, demonstrations, and support, please reach out to
+                                us at.</p>
+                            <p style="text-align:right">Website: <i><a
+                                        href="www.wavivknow.com">www.wavivknow.com</a></i></p>
+                            <p style="text-align:right">Email: info@wavivknow.com</p>
+                            <p style="text-align:right">Phone: +1-800-123-4567</p> -->
